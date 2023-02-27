@@ -1,0 +1,122 @@
+@keyframes rotate {
+  0% {
+    border-radius: 43% 69% 31% 41%/67% 33% 81% 14%;
+  }
+  100% {
+    border-radius: 67% 33% 81% 14%/43% 69% 31% 41%;
+  }
+}
+@keyframes stable {
+  0% {
+    border-radius: 67% 33% 81% 14%/43% 69% 31% 41%;
+  }
+  100% {
+    border-radius: 67% 33% 81% 14%/43% 69% 31% 41%;
+  }
+}
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background-color: #10223a;
+}
+#header .on-page {
+  transition: 0.3s ease;
+  background-color: #fab005 !important;
+  color: #10223a !important;
+  border-radius: 67% 33% 81% 14%/43% 69% 31% 41%;
+  animation: stable 1s !important;
+}
+#header a {
+  text-decoration: none;
+}
+#header .logo {
+  width: 10%;
+  padding: 10px 0;
+}
+#header .toggle-box {
+  width: 90%;
+}
+#header .toggle-box a {
+  color: white;
+  font-size: 1.3em;
+}
+#header .nav-box ul {
+  padding: 10px 0 20px;
+}
+#header .nav-box ul li {
+  text-align: center;
+}
+#header .nav-box ul li a {
+  color: white;
+  border-radius: 67% 33% 81% 14%/43% 69% 31% 41%;
+  padding: 10px;
+}
+#header .nav-box ul li a:hover {
+  transition: 0.3s ease;
+  background-color: #fab005 !important;
+  color: #10223a !important;
+  animation: rotate 0.3s linear;
+}
+#header .nav-box ul li a i {
+  font-size: 10px;
+}
+#header .footer-box {
+  font-size: 13px;
+  text-align: center;
+}
+#header .footer-box div {
+  padding-bottom: 15px;
+}
+#header .footer-box div i {
+  color: #fab005;
+  padding-right: 5px;
+}
+#header .footer-box div span {
+  color: white;
+}
+#header .footer-box .icons {
+  font-size: 1.5em;
+  padding-top: 2px;
+}
+#header .footer-box .icons a i {
+  transition: 0.3s ease;
+}
+#header .footer-box .icons a:hover i {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  #header .logo {
+    width: 8%;
+  }
+  #header .toggle-box {
+    width: 92%;
+  }
+}
+@media (min-width: 992px) {
+  #header .logo {
+    width: 6%;
+  }
+  #header .toggle-box {
+    width: 94%;
+  }
+}
+@media (min-width: 1200px) {
+  #header {
+    width: 17%;
+    height: 100vh;
+  }
+  #header .logo {
+    width: 140px;
+    padding: 38px 10px 0;
+  }
+  #header .logo img {
+    width: 100%;
+  }
+  #header .nav-box ul li {
+    padding-top: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,157 @@
+@import '_variables';
+@import '_mixin';
+
+// =================================================================
+//                            HEADER
+// =================================================================
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
+    .on-page {
+        @include round;
+        border-radius: 67% 33% 81% 14% / 43% 69% 31% 41%;
+        animation: stable 1s !important;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    background-color: $bg-color1;
+
+    .logo {
+        width: 10%;
+        padding: 10px 0;
+    }
+
+    .toggle-box {
+        width: 90%;
+
+        a {
+            color: white;
+            font-size: 1.3em;
+        }
+    }
+
+    .nav-box {
+        ul {
+            padding: 10px 0 20px;
+
+            li {
+                text-align: center;
+
+                a {
+                    color: white;
+                    border-radius: 67% 33% 81% 14% / 43% 69% 31% 41%;
+                    padding: 10px;
+                    &:hover {
+                        @include round;
+                        animation: rotate 0.3s linear;
+                    }
+
+                    i {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-box {
+        font-size: 13px;
+        text-align: center;
+
+        div {
+            padding-bottom: 15px;
+
+            i {
+                color: $bg-color2;
+                padding-right: 5px;
+            }
+
+            span {
+                color: white;
+            }
+        }
+
+        .icons {
+            font-size: 1.5em;
+            padding-top: 2px;
+
+            a {
+                i {
+                    transition: 0.3s ease;
+                }
+
+                &:hover {
+                    i {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// =================================================================
+//                       RESPONSIVE DESIGN
+// =================================================================
+
+// Small devices
+@media(min-width: 576px) {}
+
+// Medium devices
+@media (min-width: 768px) {
+    #header {
+        .logo {
+            width: 8%;
+        }
+
+        .toggle-box {
+            width: 92%;
+        }
+    }
+}
+
+// Large devices
+@media (min-width: 992px) {
+    #header {
+        .logo {
+            width: 6%;
+        }
+
+        .toggle-box {
+            width: 94%;
+        }
+    }
+}
+
+// Ultra Large devices
+@media (min-width: 1200px) {
+    #header {
+        width: 17%;
+        height: 100vh;
+
+        .logo {
+            width: 140px;
+            padding: 38px 10px 0;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .nav-box {
+            ul {
+                li {
+                    padding-top: 20px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+    }
+}
