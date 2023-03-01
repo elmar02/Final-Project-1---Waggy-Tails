@@ -4,21 +4,3 @@
     color: $bg-color1 !important;
     
 }
-
-@keyframes rotate{
-    0%{
-        border-radius: 43% 69% 31% 41% / 67% 33% 81% 14%;
-    }
-    100%{
-        border-radius: 67% 33% 81% 14% / 43% 69% 31% 41%;
-    }
-}
-
-@keyframes stable{
-    0%{
-        border-radius: 67% 33% 81% 14% / 43% 69% 31% 41%;
-    }
-    100%{
-        border-radius: 67% 33% 81% 14% / 43% 69% 31% 41%;
-    }
-}
