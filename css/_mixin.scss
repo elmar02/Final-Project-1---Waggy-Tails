@@ -1,14 +1,19 @@
-@mixin tr-03{
+@mixin tr-03 {
     transition: 0.3s ease;
 }
 
-@mixin tr-05{
+@mixin tr-05 {
     transition: 0.5s ease;
 }
 
-@mixin round{
+@mixin round {
     @include tr-03;
     background-color: $bg-color2 !important;
     color: $bg-color1 !important;
-    
+}
+
+@mixin headerfont {
+    font-family: $abeezee;
+    font-weight: 700;
+    color: $bg-color1;
 }

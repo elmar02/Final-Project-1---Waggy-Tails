@@ -150,19 +150,31 @@
     width: 100%;
   }
 }
-#sections {
+main {
   transform: translateY(72px);
   height: 1000vh;
 }
-#sections #elements {
+main .w-90 {
+  width: 90%;
+}
+main #elements {
   position: relative;
   background-image: url(/images/pageheader.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 55vh;
+  height: 32.5vh;
 }
-#sections #elements .overlay {
+main #elements svg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+main #elements svg path {
+  transform: rotate(180deg);
+  transform-origin: 50% 50%;
+}
+main #elements .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -171,47 +183,218 @@
   background: rgb(16, 34, 58);
   background: linear-gradient(263deg, rgba(16, 34, 58, 0.6) 100%, rgb(255, 255, 255) 100%);
 }
-#sections #elements .text-box {
+main #elements .text-box {
   position: absolute;
-  top: 39%;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
-  height: 50vh;
 }
-#sections #elements .text-box h1 {
+main #elements .text-box h1 {
   color: white;
-  font-size: 4.3em;
+  font-size: 2.5em;
   line-height: 1em;
   font-family: "ABeeZee", sans-serif;
   margin-bottom: 15px;
   letter-spacing: -0.5px;
   font-weight: 700;
 }
-#sections #elements .text-box ol {
+main #elements .text-box ol {
   display: inline-flex;
 }
-#sections #elements .text-box ol li {
+main #elements .text-box ol li {
   color: rgba(255, 255, 255, 0.8);
   font-weight: 700;
-  font-size: 13.5px;
+  font-size: 12px;
   margin-right: 6px;
 }
-#sections #elements .text-box ol li a {
+main #elements .text-box ol li a {
   text-decoration: none;
   color: #fab005;
 }
-#sections svg {
-  transform: translateY(-125px);
+main #basic {
+  padding: 50px 0;
 }
-#sections svg path {
-  transform: rotate(180deg);
-  transform-origin: 50% 50%;
+main #basic .headline {
+  text-align: center;
+  font-size: 2em;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 700;
+  color: #10223a;
+  padding-bottom: 80px;
+}
+main #basic .subline {
+  text-align: center;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 700;
+  color: #10223a;
+  background-color: #FDF3E2;
+  padding: 10px 0;
+  border-radius: 8px;
+  margin: auto;
+  margin-bottom: 50px;
+  font-size: 1.7em;
+}
+main #basic .typography {
+  margin: auto;
+}
+main #basic .typography .typoText {
+  font-family: "ABeeZee", sans-serif;
+}
+main #basic .typography .typoText p {
+  line-height: 28px;
+}
+main #basic .typography .typoText p:nth-child(-n+7):nth-child(n+5), main #basic .typography .typoText p:nth-child(11), main #basic .typography .typoText p:nth-child(13) {
+  background-color: #10223a;
+}
+main #basic .typography .typoText p:first-child {
+  color: #10223a !important;
+}
+main #basic .typography .typoText p:nth-child(2) {
+  color: #fab005 !important;
+}
+main #basic .typography .typoHeader h1,
+main #basic .typography .typoHeader h2,
+main #basic .typography .typoHeader h3,
+main #basic .typography .typoHeader h4,
+main #basic .typography .typoHeader h5,
+main #basic .typography .typoHeader h6 {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 700;
+  color: #10223a;
+}
+main #basic .typography .typoHeader h3:last-child {
+  font-family: "Damion";
+}
+main #basic .typography .typoHeader h6 {
+  text-transform: uppercase;
+}
+main #basic .altText {
+  color: #10223a;
+  border-bottom: 1px dotted #10223a;
+  padding-left: 8px;
+}
+main #basic .lists {
+  padding-bottom: 30px;
+}
+main #basic .lists .list .altBox {
+  padding: 20px 0;
+}
+main #basic .lists .list .altBox .link-item {
+  background-color: #FDF3E2;
+  margin-bottom: 1px;
+  padding: 10px;
+  border-radius: 3px;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 700;
+  color: #10223a;
+  transition: 0.3s ease;
+}
+main #basic .lists .list .altBox .link-item:hover {
+  background-color: #10223a;
+  color: white;
+  background-color: #fab005;
+}
+main #basic .lists .list .altBox .disabled {
+  pointer-events: none;
+  opacity: 75%;
+}
+main #basic .lists .list .altBox .current {
+  background-color: #10223a;
+  color: white;
+  background-color: #fab005;
+}
+main #basic .lists .list .altBox p::before {
+  font-family: FontAwesome;
+  content: "\f1b0";
+  padding-right: 5px;
+  color: #fab005;
+}
+main #basic .components .box .slide {
+  position: relative;
+  border: 0;
+  border-top: solid;
+  padding: 30px;
+  color: #10223a;
+}
+main #basic .components .box .slide:first-child, main #basic .components .box .slide:nth-child(6) {
+  background-color: #FDF3E2;
+}
+main #basic .components .box .slide:first-child {
+  border-top-color: #fab005;
+}
+main #basic .components .box .slide:nth-child(2)::before {
+  color: #10223a;
+}
+main #basic .components .box .slide::before {
+  position: absolute;
+  font-family: FontAwesome;
+  content: "\f1b0";
+  padding-right: 5px;
+  color: #fab005;
+  font-size: 1.6em;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%) rotate(30deg);
 }
 
+@media (min-width: 576px) {
+  main #elements {
+    height: 35vh;
+  }
+  main #elements div .text-box ol li {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) {
+  main #elements {
+    height: 45vh;
+  }
+  main #elements div .text-box h1 {
+    font-size: 4em;
+  }
+  main #basic .headline {
+    font-size: 3.4em;
+  }
+  main #basic .subline {
+    font-size: 2.4em;
+  }
+  main #basic .typography .typoHeader h1 {
+    font-size: 4.3em;
+  }
+  main #basic .typography .typoHeader h2 {
+    font-size: 3.4em;
+  }
+  main #basic .typography .typoHeader h3 {
+    font-size: 2.4em;
+  }
+  main #basic .typography .typoHeader h4 {
+    font-size: 1.8em;
+  }
+  main #basic .typography .typoHeader h5 {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 992px) {
+  main #elements {
+    height: 50vh;
+  }
+  main #elements div .text-box h1 {
+    font-size: 4.2em;
+  }
+}
 @media (min-width: 1200px) {
-  #sections {
+  main {
     margin-left: 17.05%;
     transform: translateY(0);
+  }
+  main #elements {
+    height: 400px;
+  }
+  main #elements div .text-box {
+    top: 40%;
+  }
+  main #elements div .text-box h1 {
+    font-size: 4.2em;
   }
 }/*# sourceMappingURL=style.css.map */
