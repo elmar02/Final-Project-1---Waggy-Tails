@@ -1,6 +1,5 @@
 main {
     transform: translateY(72px);
-    height: 1000vh;
 
     .bg-cream {
         background-color: #fdf3e2;
@@ -75,6 +74,15 @@ main {
         }
     }
 
+    #basic,#image-effects{
+        .altText {
+            color: $bg-color1;
+            border-bottom: 1px dotted $bg-color1;
+            padding-left: 8px;
+            margin-bottom: 20px;
+        }
+    }
+
     #basic {
         padding: 50px 0;
 
@@ -129,13 +137,6 @@ main {
             }
         }
 
-        .altText {
-            color: $bg-color1;
-            border-bottom: 1px dotted $bg-color1;
-            padding-left: 8px;
-            margin-bottom: 20px;
-        }
-
         .lists {
             padding-bottom: 30px;
 
@@ -184,12 +185,6 @@ main {
 
         .components {
             .box {
-                &:first-child {
-                    padding-right: 80px;
-                }
-                &:last-child{
-                    padding-left: 80px;
-                }
                 .alerts {
                     .slide {
                         position: relative;
@@ -237,6 +232,7 @@ main {
                 .tabs {
                     #nav-tab {
                         border: none;
+
                         .nav-link {
                             font-size: 1.2em;
                             padding: 15px 25px;
@@ -244,7 +240,9 @@ main {
                             background-color: $bg-color2 !important;
                             @include headerfont;
                             border-radius: 8px;
-                            &:focus,&:hover {
+
+                            &:focus,
+                            &:hover {
                                 background-color: $bg-color1 !important;
                                 color: white !important;
                             }
@@ -255,8 +253,9 @@ main {
                             color: white !important;
                         }
                     }
-                    #nav-tabContent{
-                        p{
+
+                    #nav-tabContent {
+                        p {
                             padding: 50px 50px;
                             border-radius: 8px;
                             font-family: $abeezee;
@@ -305,18 +304,243 @@ main {
                         }
                     }
                 }
+            }
+        }
 
-                .alerts,
-                .badges,
-                .progress-bars,
-                .shadows,
-                .tabs,
-                .accordion {
-                    margin-bottom: 20px;
+        .forms {
+            .box {
+                .input {
+                    position: relative;
+
+                    input,
+                    textarea {
+                        padding: 20px 10px 10px;
+                        width: 100%;
+                        margin-bottom: 20px;
+                        outline: none;
+                        border: 0;
+                        border-bottom: 2px solid $bg-color2;
+                        border-radius: 5px;
+
+                        &:focus {
+                            border-bottom: 2px solid $bg-color1;
+                        }
+                    }
+
+                    label {
+                        position: absolute;
+                        top: 0px;
+                        left: 10px;
+                        font-size: 1.05em;
+                        color: #635B59;
+                        @include tr-03;
+                        pointer-events: none;
+                    }
+
+                    &:focus-within {
+                        label {
+                            top: -5px;
+                            font-size: 0.95em;
+                            color: gray;
+                        }
+                    }
+
+                    textarea {
+                        min-height: 100px;
+                    }
+                }
+
+                .field {
+                    .input {
+                        input {
+                            margin: 0;
+                            padding: 0 10px;
+
+
+                        }
+                    }
+                }
+
+                .selects {
+                    select {
+                        border-color: $bg-color2 !important;
+
+                        &:focus {
+                            border-color: $bg-color2;
+                            outline: 0;
+                            box-shadow: 0 0 0 0.25rem #fab0052b;
+                        }
+                    }
+                }
+                .checkbox,.radio,.switch{
+                    input{
+                        border-color: $bg-color2;
+                        &:checked{
+                            background-color: $bg-color2;
+                        }
+                        &:focus {
+                            border-color: $bg-color2;
+                            outline: 0;
+                            box-shadow: 0 0 0 0.25rem #fab0052b;
+                        }
+                    }
                 }
             }
         }
-        
+        .other{
+            .pagination-box{
+                .pagination{
+                    .page-item{
+                        .page-link{
+                            border: none;
+                            @include headerfont;
+                            background-color: #f5f5f2;
+                            &:hover{
+                                background-color: $bg-color2;
+                                color: white;
+                            }
+                        }
+                    }
+                    .active{
+                        .page-link{
+                            background-color: $bg-color2;
+                        }
+                    }
+                }
+            }
+            .buttons{
+                .button, .dropdown{
+                    .border-none{
+                        border: none;
+                    }
+                    .btn{
+                        border-radius: 20px;
+                        @include headerfont;
+                        padding: 8px 45px;
+                        font-size: 1.2em;
+                    }
+                    .bg1,.solid-hover1:hover{
+                        @include bg-1;
+                    }
+                    .bg2,.solid-hover2:hover{
+                        @include bg-2;
+                    }
+
+                    .border1,.border-hover1:hover{
+                        @include border-1;
+                    }
+                    .border2,.border-hover2:hover{
+                        @include border-2;
+                    }
+                    .btn-info{
+                        &:hover{
+                            background-color: white;
+                            color: $bg-color2;
+                        }
+                    }
+                }
+                .button{
+                    &:first-child{
+                            &:focus{
+                                a{
+                                    color: white;
+                                background-color: $bg-color2;
+                                }
+                            }
+                    }
+                }
+            }
+            .breadcrumbs{
+                nav{
+                    background-color: $bg-color1;
+                    ol{
+                        padding-bottom: 18px;
+                        padding-top: 2px;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        font-size: 0.8em;
+                        margin-bottom: 50px;
+                        .breadcrumb-item{
+                            font-family: $abeezee;
+                            a{
+                                color: $bg-color2;
+                                text-decoration: none;
+                                @include tr-03;
+                                &:hover{
+                                    color: white;
+                                }
+                            }
+                            &::before{
+                                color: white;
+                                opacity: 0.8;
+                            }
+                        }
+                        .active{
+                            color: white;
+                            opacity: 0.8;
+                        }
+                    }
+                }
+            }
+            .pills{
+                .nav-pills{
+                    .nav-item{
+                        @include headerfont;
+                        font-size: 1.1em;
+                        .nav-link{
+                            color: $bg-color1;
+                            &:hover{
+                                background-color: $bg-color2;
+                                color: white;
+                            }
+                            &:focus{
+                                background-color: $bg-color2;
+                                color: $bg-color2;
+                            }
+                        }
+                        .active,.active:hover,.active:focus{
+                            @include bg-1;
+                        }
+                    }
+                }
+            }
+            .social-media{
+                .icons{
+                    a{
+                        font-size: 1.2em;
+                        @include tr-03;
+                        &:hover{
+                            color: $bg-color1 !important;
+                        }
+                    }
+                }
+            }
+            .collapsible-element{
+                p{
+                    width: 250px;
+                    margin: auto;
+                    .btn{
+                        text-transform: uppercase;
+                        width: fit-content;
+                        @include headerfont;
+                        border-radius: 20px;
+                        padding: 8px 40px;
+                        &:focus,&:hover{
+                            color: white;
+                        }
+                        &:hover{
+                            background-color: $bg-color1;
+                        }
+                    }
+                }
+                .collapse{
+                    .card{
+                        border: none;
+                        text-align: center;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -396,7 +620,7 @@ main {
         #elements {
             height: 50vh;
 
-            div {
+            .w-90 {
                 .text-box {
                     h1 {
                         font-size: 4.2em;

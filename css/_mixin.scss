@@ -17,3 +17,23 @@
     font-weight: 700;
     color: $bg-color1;
 }
+
+@mixin bg-1{
+    background-color: $bg-color1;
+    color: white;
+}
+
+@mixin bg-2{
+    background-color: $bg-color2;
+    color: $bg-color1;
+}
+
+@mixin border-1{
+    border-color: $bg-color1;
+    color: $bg-color1;
+}
+
+@mixin border-2{
+    border-color: $bg-color2;
+    color: $bg-color2;
+}

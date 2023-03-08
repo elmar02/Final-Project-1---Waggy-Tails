@@ -152,7 +152,6 @@
 }
 main {
   transform: translateY(72px);
-  height: 1000vh;
 }
 main .bg-cream {
   background-color: #fdf3e2;
@@ -215,6 +214,12 @@ main #elements .text-box ol li a {
   text-decoration: none;
   color: #fab005;
 }
+main #basic .altText, main #image-effects .altText {
+  color: #10223a;
+  border-bottom: 1px dotted #10223a;
+  padding-left: 8px;
+  margin-bottom: 20px;
+}
 main #basic {
   padding: 50px 0;
 }
@@ -262,12 +267,6 @@ main #basic .typography .typoHeader h3:last-child {
 main #basic .typography .typoHeader h6 {
   text-transform: uppercase;
 }
-main #basic .altText {
-  color: #10223a;
-  border-bottom: 1px dotted #10223a;
-  padding-left: 8px;
-  margin-bottom: 20px;
-}
 main #basic .lists {
   padding-bottom: 30px;
 }
@@ -302,12 +301,6 @@ main #basic .lists .list .altBox p::before {
   content: "\f1b0";
   padding-right: 5px;
   color: #fab005;
-}
-main #basic .components .box:first-child {
-  padding-right: 80px;
-}
-main #basic .components .box:last-child {
-  padding-left: 80px;
 }
 main #basic .components .box .alerts .slide {
   position: relative;
@@ -402,13 +395,193 @@ main #basic .components .box .accordion .accordion-item .accordion-button:focus 
 main #basic .components .box .accordion .accordion-item .accordion-button:focus::after {
   filter: brightness(0) invert(1);
 }
-main #basic .components .box .alerts,
-main #basic .components .box .badges,
-main #basic .components .box .progress-bars,
-main #basic .components .box .shadows,
-main #basic .components .box .tabs,
-main #basic .components .box .accordion {
+main #basic .forms .box .input {
+  position: relative;
+}
+main #basic .forms .box .input input,
+main #basic .forms .box .input textarea {
+  padding: 20px 10px 10px;
+  width: 100%;
   margin-bottom: 20px;
+  outline: none;
+  border: 0;
+  border-bottom: 2px solid #fab005;
+  border-radius: 5px;
+}
+main #basic .forms .box .input input:focus,
+main #basic .forms .box .input textarea:focus {
+  border-bottom: 2px solid #10223a;
+}
+main #basic .forms .box .input label {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  font-size: 1.05em;
+  color: #635B59;
+  transition: 0.3s ease;
+  pointer-events: none;
+}
+main #basic .forms .box .input:focus-within label {
+  top: -5px;
+  font-size: 0.95em;
+  color: gray;
+}
+main #basic .forms .box .input textarea {
+  min-height: 100px;
+}
+main #basic .forms .box .field .input input {
+  margin: 0;
+  padding: 0 10px;
+}
+main #basic .forms .box .selects select {
+  border-color: #fab005 !important;
+}
+main #basic .forms .box .selects select:focus {
+  border-color: #fab005;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(250, 176, 5, 0.168627451);
+}
+main #basic .forms .box .checkbox input, main #basic .forms .box .radio input, main #basic .forms .box .switch input {
+  border-color: #fab005;
+}
+main #basic .forms .box .checkbox input:checked, main #basic .forms .box .radio input:checked, main #basic .forms .box .switch input:checked {
+  background-color: #fab005;
+}
+main #basic .forms .box .checkbox input:focus, main #basic .forms .box .radio input:focus, main #basic .forms .box .switch input:focus {
+  border-color: #fab005;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(250, 176, 5, 0.168627451);
+}
+main #basic .other .pagination-box .pagination .page-item .page-link {
+  border: none;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 700;
+  color: #10223a;
+  background-color: #f5f5f2;
+}
+main #basic .other .pagination-box .pagination .page-item .page-link:hover {
+  background-color: #fab005;
+  color: white;
+}
+main #basic .other .pagination-box .pagination .active .page-link {
+  background-color: #fab005;
+}
+main #basic .other .buttons .button .border-none, main #basic .other .buttons .dropdown .border-none {
+  border: none;
+}
+main #basic .other .buttons .button .btn, main #basic .other .buttons .dropdown .btn {
+  border-radius: 20px;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 700;
+  color: #10223a;
+  padding: 8px 45px;
+  font-size: 1.2em;
+}
+main #basic .other .buttons .button .bg1, main #basic .other .buttons .button .solid-hover1:hover, main #basic .other .buttons .dropdown .bg1, main #basic .other .buttons .dropdown .solid-hover1:hover {
+  background-color: #10223a;
+  color: white;
+}
+main #basic .other .buttons .button .bg2, main #basic .other .buttons .button .solid-hover2:hover, main #basic .other .buttons .dropdown .bg2, main #basic .other .buttons .dropdown .solid-hover2:hover {
+  background-color: #fab005;
+  color: #10223a;
+}
+main #basic .other .buttons .button .border1, main #basic .other .buttons .button .border-hover1:hover, main #basic .other .buttons .dropdown .border1, main #basic .other .buttons .dropdown .border-hover1:hover {
+  border-color: #10223a;
+  color: #10223a;
+}
+main #basic .other .buttons .button .border2, main #basic .other .buttons .button .border-hover2:hover, main #basic .other .buttons .dropdown .border2, main #basic .other .buttons .dropdown .border-hover2:hover {
+  border-color: #fab005;
+  color: #fab005;
+}
+main #basic .other .buttons .button .btn-info:hover, main #basic .other .buttons .dropdown .btn-info:hover {
+  background-color: white;
+  color: #fab005;
+}
+main #basic .other .buttons .button:first-child:focus a {
+  color: white;
+  background-color: #fab005;
+}
+main #basic .other .breadcrumbs nav {
+  background-color: #10223a;
+}
+main #basic .other .breadcrumbs nav ol {
+  padding-bottom: 18px;
+  padding-top: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8em;
+  margin-bottom: 50px;
+}
+main #basic .other .breadcrumbs nav ol .breadcrumb-item {
+  font-family: "ABeeZee", sans-serif;
+}
+main #basic .other .breadcrumbs nav ol .breadcrumb-item a {
+  color: #fab005;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+main #basic .other .breadcrumbs nav ol .breadcrumb-item a:hover {
+  color: white;
+}
+main #basic .other .breadcrumbs nav ol .breadcrumb-item::before {
+  color: white;
+  opacity: 0.8;
+}
+main #basic .other .breadcrumbs nav ol .active {
+  color: white;
+  opacity: 0.8;
+}
+main #basic .other .pills .nav-pills .nav-item {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 700;
+  color: #10223a;
+  font-size: 1.1em;
+}
+main #basic .other .pills .nav-pills .nav-item .nav-link {
+  color: #10223a;
+}
+main #basic .other .pills .nav-pills .nav-item .nav-link:hover {
+  background-color: #fab005;
+  color: white;
+}
+main #basic .other .pills .nav-pills .nav-item .nav-link:focus {
+  background-color: #fab005;
+  color: #fab005;
+}
+main #basic .other .pills .nav-pills .nav-item .active, main #basic .other .pills .nav-pills .nav-item .active:hover, main #basic .other .pills .nav-pills .nav-item .active:focus {
+  background-color: #10223a;
+  color: white;
+}
+main #basic .other .social-media .icons a {
+  font-size: 1.2em;
+  transition: 0.3s ease;
+}
+main #basic .other .social-media .icons a:hover {
+  color: #10223a !important;
+}
+main #basic .other .collapsible-element p {
+  width: 250px;
+  margin: auto;
+}
+main #basic .other .collapsible-element p .btn {
+  text-transform: uppercase;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 700;
+  color: #10223a;
+  border-radius: 20px;
+  padding: 8px 40px;
+}
+main #basic .other .collapsible-element p .btn:focus, main #basic .other .collapsible-element p .btn:hover {
+  color: white;
+}
+main #basic .other .collapsible-element p .btn:hover {
+  background-color: #10223a;
+}
+main #basic .other .collapsible-element .collapse .card {
+  border: none;
+  text-align: center;
 }
 
 @media (min-width: 576px) {
@@ -452,7 +625,7 @@ main #basic .components .box .accordion {
   main #elements {
     height: 50vh;
   }
-  main #elements div .text-box h1 {
+  main #elements .w-90 .text-box h1 {
     font-size: 4.2em;
   }
 }

@@ -177,12 +177,12 @@
                     </div>
                 </div>
                 <h3 class="subline bg-cream">Components</h3>
-                <div class="components row">
-                    <div class="box col-12 col-lg-6">
+                <div class="components row justify-content-lg-between">
+                    <div class="box col-12 col-lg-5">
                         <div class="altText">
                             <h3>Alerts</h3>
                         </div>
-                        <div class="alerts">
+                        <div class="alerts mb-4">
                             <p class="slide bg-cream alert alert-primary">A simple primary alert-check it out!</p>
                             <p class="slide alert alert-secondary">A simple secondary alert-check it out!</p>
                             <p class="slide alert alert-success">A simple success alert-check it out!</p>
@@ -197,7 +197,7 @@
                         <div class="altText">
                             <h3>Badges</h3>
                         </div>
-                        <div class="badges">
+                        <div class="badges mb-4">
                             <span class="badge rounded-pill bg-warning">Primary</span>
                             <span class="badge rounded-pill bg-dark">Secondary</span>
                             <span class="badge rounded-pill bg-success">Success</span>
@@ -210,7 +210,7 @@
                         <div class="altText">
                             <h3>Progress Bars</h3>
                         </div>
-                        <div class="progress-bars">
+                        <div class="progress-bars mb-4">
                             <div class="gray-block progress">
                                 <div class="blue-block d-none"></div>
                             </div>
@@ -230,7 +230,7 @@
                         <div class="altText">
                             <h3>Shadows</h3>
                         </div>
-                        <div class="shadows">
+                        <div class="shadows mb-4">
                             <p class="shadow-sm p-3 mb-5">Small shadow</p>
                             <p class="shadow p-3 mb-5">Regular shadow</p>
                             <p class="shadow-lg p-3 mb-5">Larger shadow</p>
@@ -240,7 +240,7 @@
                         <div class="altText">
                             <h3>Tabs</h3>
                         </div>
-                        <div class="tabs">
+                        <div class="tabs mb-4">
                             <nav>
                                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
                                     <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
@@ -281,11 +281,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="box col-12 col-lg-6">
+                    <div class="box col-12 col-lg-5">
                         <div class="altText">
                             <h3>Accordions</h3>
                         </div>
-                        <div class="accordion" id="accordionExample">
+                        <div class="accordion mb-4" id="accordionExample">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -359,48 +359,276 @@
                     </div>
                 </div>
                 <h3 class="subline bg-cream mt-2">Forms</h3>
-                <div class="forms row">
-                    <div class="box col-12 col-lg-6 pe-5">
-                        <div class="form">
+                <div class="forms row mb-4">
+                    <div class="box col-12 col-lg-6 pe-lg-5">
+                        <div class="form mb-4">
                             <div class="altText">
                                 <h3>Form Elements</h3>
                             </div>
                             <div class="inputs">
-                                
+                                <div class="input">
+                                    <label for="text">Text</label>
+                                    <input type="text" name="text" id="text">
+                                </div>
+                                <div class="input">
+                                    <label for="email">Email address</label>
+                                    <input type="email" name="email" id="email">
+                                </div>
+                                <div class="input">
+                                    <label for="password">Password</label>
+                                    <input type="password" name="password" id="password">
+                                </div>
+                                <div class="input">
+                                    <label for="textarea">Text Area</label>
+                                    <textarea name="textarea" id="textarea"></textarea>
+                                </div>
                             </div>
                         </div>
-                        <div class="field">
+                        <div class="field mb-4">
                             <div class="altText">
                                 <h3>Field sizes</h3>
+                            </div>
+                            <div class="input">
+                                <input type="text" name="text" id="text" class="form-control-lg"
+                                    placeholder=".form-control-lg">
+                            </div>
+                            <div class="input">
+                                <input type="text" name="text" id="text" class="form-control"
+                                    placeholder="Default input">
+                            </div>
+                            <div class="input">
+                                <input type="text" name="text" id="text" class="form-control-sm"
+                                    placeholder=".form-control-lg">
                             </div>
                         </div>
                     </div>
                     <div class="box col-12 col-lg-6">
-                        <div class="selects">
+                        <div class="selects mb-4">
                             <div class="altText">
                                 <h3>Selects</h3>
                             </div>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Open this select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
                         </div>
-                        <div class="checkbox">
+                        <div class="checkbox mb-4">
                             <div class="altText">
                                 <h3>Checkbox</h3>
                             </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Default checkbox
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Checked checkbox
+                                </label>
+                            </div>
                         </div>
-                        <div class="radio">
+                        <div class="radio mb-4">
                             <div class="altText">
                                 <h3>Radio</h3>
                             </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Default radio
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Default checked radio
+                                </label>
+                            </div>
                         </div>
-                        <div class="switch">
+                        <div class="switch mb-4">
                             <div class="altText">
                                 <h3>Switch</h3>
                             </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch"
+                                    id="flexSwitchCheckDefault">
+                                <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox
+                                    input</label>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch"
+                                    id="flexSwitchCheckChecked" checked>
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox
+                                    input</label>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch"
+                                    id="flexSwitchCheckDisabled" disabled>
+                                <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch checkbox
+                                    input</label>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch"
+                                    id="flexSwitchCheckCheckedDisabled" checked disabled>
+                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked
+                                    switch checkbox input</label>
+                            </div>
                         </div>
+                    </div>
+                </div>
+                <h3 class="subline bg-cream mt-2">Other</h3>
+                <div class="other row">
+                    <div class="pagination-box col-12 col-md-4">
+                        <div class="altText">
+                            <h3>Pagination</h3>
+                        </div>
+                        <nav aria-label="...">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active" aria-current="page">
+                                    <a class="page-link" href="#">2</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="buttons col-12 col-md-4 mb-3">
+                        <div class="altText">
+                            <h3>Buttons</h3>
+                        </div>
+                        <div class="button"><a href="#"
+                                class="mb-3 mt-4 border-none btn btn-primary bg2 solid-hover1">Primary</a>
+                        </div>
+                        <div class="button"><a href="#"
+                                class="mb-3 border-none ms-2 text-white btn btn-secondary bg1 solid-hover2">Secondary</a>
+                        </div>
+                        <div class="button"><a href="#"
+                                class="mb-3 ms-2 btn btn-outline-primary border-2 bg-transparent border2 border-hover1">Primary</a>
+                        </div>
+                        <div class="button"><a href="#"
+                                class="mb-3 ms-2 btn btn-outline-secondary border-2 bg-transparent border1 border-hover2">Secondary</a>
+                        </div>
+                        <div class="button"><a href="#" class="mb-3 ms-2 btn border-none btn-info bg1">Info</a></div>
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle bg1 solid-hover2 border-none text-white"
+                                href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown link
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="breadcrumbs col-12 col-md-4 text-center">
+                        <div class="altText">
+                            <h3>Breadcrumbs</h3>
+                        </div>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item active" aria-current="page">Home</li>
+                            </ol>
+                        </nav>
+
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Library</li>
+                            </ol>
+                        </nav>
+
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Data</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="pills col-12 col-md-4">
+                        <div class="altText">
+                            <h3>Pills</h3>
+                        </div>
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Active</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="social-media col-12 col-md-4">
+                        <div class="altText">
+                            <h3>Social Media</h3>
+                        </div>
+                        <div class="icons d-flex m-auto justify-content-between w-50">
+                            <a href="#" class="text-warning"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="text-warning"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="text-warning"><i class="fa-brands fa-google-plus"></i></a>
+                            <a href="#" class="text-warning"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="collapsible-element col-12 col-md-4">
+                        <div class="altText text-center">
+                            <h3>Collapsible <br> Elment</h3>
+                        </div>
+                        <p class="row justify-content-center">
+                            <a class="btn btn-warning mb-3" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                Link with href
+                            </a>
+                            <button class="btn btn-warning" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Button with data-bs-target
+                            </button>
+                        </p>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                                Some placeholder content for the collapse component. This panel is hidden by default but
+                                revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="altText">
+                            <h3>Tables</h3>
+                        </div>
+
+                    </div>
+                    <div class="col-12">
+                        <div class="altText">
+                            <h3>Backgrounds</h3>
+                        </div>
+
+                    </div>
+                    <div class="col-12">
+                        <div class="altText">
+                            <h3>Cards</h3>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
     <!-- ================== MAIN END=========================== -->
 </body>
 
