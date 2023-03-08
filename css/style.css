@@ -154,6 +154,9 @@ main {
   transform: translateY(72px);
   height: 1000vh;
 }
+main .bg-cream {
+  background-color: #fdf3e2;
+}
 main .w-90 {
   width: 90%;
 }
@@ -228,7 +231,6 @@ main #basic .subline {
   font-family: "ABeeZee", sans-serif;
   font-weight: 700;
   color: #10223a;
-  background-color: #FDF3E2;
   padding: 10px 0;
   border-radius: 8px;
   margin: auto;
@@ -243,15 +245,6 @@ main #basic .typography .typoText {
 }
 main #basic .typography .typoText p {
   line-height: 28px;
-}
-main #basic .typography .typoText p:nth-child(-n+7):nth-child(n+5), main #basic .typography .typoText p:nth-child(11), main #basic .typography .typoText p:nth-child(13) {
-  background-color: #10223a;
-}
-main #basic .typography .typoText p:first-child {
-  color: #10223a !important;
-}
-main #basic .typography .typoText p:nth-child(2) {
-  color: #fab005 !important;
 }
 main #basic .typography .typoHeader h1,
 main #basic .typography .typoHeader h2,
@@ -273,15 +266,15 @@ main #basic .altText {
   color: #10223a;
   border-bottom: 1px dotted #10223a;
   padding-left: 8px;
+  margin-bottom: 20px;
 }
 main #basic .lists {
   padding-bottom: 30px;
 }
 main #basic .lists .list .altBox {
-  padding: 20px 0;
+  padding: 0 0 20px;
 }
 main #basic .lists .list .altBox .link-item {
-  background-color: #FDF3E2;
   margin-bottom: 1px;
   padding: 10px;
   border-radius: 3px;
@@ -310,23 +303,26 @@ main #basic .lists .list .altBox p::before {
   padding-right: 5px;
   color: #fab005;
 }
-main #basic .components .box .slide {
+main #basic .components .box:first-child {
+  padding-right: 80px;
+}
+main #basic .components .box:last-child {
+  padding-left: 80px;
+}
+main #basic .components .box .alerts .slide {
   position: relative;
   border: 0;
   border-top: solid;
   padding: 30px;
   color: #10223a;
 }
-main #basic .components .box .slide:first-child, main #basic .components .box .slide:nth-child(6) {
-  background-color: #FDF3E2;
-}
-main #basic .components .box .slide:first-child {
+main #basic .components .box .alerts .slide:first-child {
   border-top-color: #fab005;
 }
-main #basic .components .box .slide:nth-child(2)::before {
+main #basic .components .box .alerts .slide:nth-child(2)::before {
   color: #10223a;
 }
-main #basic .components .box .slide::before {
+main #basic .components .box .alerts .slide::before {
   position: absolute;
   font-family: FontAwesome;
   content: "\f1b0";
@@ -336,6 +332,83 @@ main #basic .components .box .slide::before {
   top: -25px;
   left: 50%;
   transform: translateX(-50%) rotate(30deg);
+}
+main #basic .components .box .progress-bars .gray-block {
+  margin-bottom: 5px;
+}
+main #basic .components .box .progress-bars .gray-block .blue-block {
+  top: 0;
+  left: 0;
+  background-color: #0D6EFD;
+}
+main #basic .components .box .tabs #nav-tab {
+  border: none;
+}
+main #basic .components .box .tabs #nav-tab .nav-link {
+  font-size: 1.2em;
+  padding: 15px 25px;
+  margin-right: 10px;
+  background-color: #fab005 !important;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 700;
+  color: #10223a;
+  border-radius: 8px;
+}
+main #basic .components .box .tabs #nav-tab .nav-link:focus, main #basic .components .box .tabs #nav-tab .nav-link:hover {
+  background-color: #10223a !important;
+  color: white !important;
+}
+main #basic .components .box .tabs #nav-tab .active {
+  background-color: #10223a !important;
+  color: white !important;
+}
+main #basic .components .box .tabs #nav-tabContent p {
+  padding: 50px 50px;
+  border-radius: 8px;
+  font-family: "ABeeZee", sans-serif;
+  color: #444;
+}
+main #basic .components .box .accordion .accordion-item {
+  border: none;
+  margin-bottom: 5px;
+}
+main #basic .components .box .accordion .accordion-item .accordion-button {
+  background-color: #fdf3e2;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 700;
+  color: #10223a;
+  border: none;
+  box-shadow: none;
+  border-radius: 8px;
+}
+main #basic .components .box .accordion .accordion-item .accordion-button::after {
+  fill: #10223a;
+}
+main #basic .components .box .accordion .accordion-item .accordion-button:hover {
+  background-color: #10223a;
+  color: white;
+  border: none;
+}
+main #basic .components .box .accordion .accordion-item .accordion-button:hover::after {
+  filter: brightness(0) invert(1);
+}
+main #basic .components .box .accordion .accordion-item .accordion-button:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background-color: #10223a;
+  color: white;
+}
+main #basic .components .box .accordion .accordion-item .accordion-button:focus::after {
+  filter: brightness(0) invert(1);
+}
+main #basic .components .box .alerts,
+main #basic .components .box .badges,
+main #basic .components .box .progress-bars,
+main #basic .components .box .shadows,
+main #basic .components .box .tabs,
+main #basic .components .box .accordion {
+  margin-bottom: 20px;
 }
 
 @media (min-width: 576px) {

@@ -2,6 +2,10 @@ main {
     transform: translateY(72px);
     height: 1000vh;
 
+    .bg-cream {
+        background-color: #fdf3e2;
+    }
+
     .w-90 {
         width: 90%;
     }
@@ -84,7 +88,6 @@ main {
         .subline {
             text-align: center;
             @include headerfont;
-            background-color: #FDF3E2;
             padding: 10px 0;
             border-radius: 8px;
             margin: auto;
@@ -100,20 +103,6 @@ main {
 
                 p {
                     line-height: 28px;
-
-                    &:nth-child(-n+7):nth-child(n+5),
-                    &:nth-child(11),
-                    &:nth-child(13) {
-                        background-color: $bg-color1;
-                    }
-
-                    &:first-child {
-                        color: $bg-color1 !important;
-                    }
-
-                    &:nth-child(2) {
-                        color: $bg-color2 !important;
-                    }
                 }
             }
 
@@ -139,20 +128,23 @@ main {
                 }
             }
         }
+
         .altText {
             color: $bg-color1;
             border-bottom: 1px dotted $bg-color1;
             padding-left: 8px;
+            margin-bottom: 20px;
         }
+
         .lists {
             padding-bottom: 30px;
+
             .list {
 
                 .altBox {
-                    padding: 20px 0;
+                    padding: 0 0 20px;
 
                     .link-item {
-                        background-color: #FDF3E2;
                         margin-bottom: 1px;
                         padding: 10px;
                         border-radius: 3px;
@@ -189,39 +181,142 @@ main {
                 }
             }
         }
-        .components{
-            .box{
-                .slide{
-                    position: relative;
-                    border: 0;
-                    border-top: solid;
-                    padding: 30px;
-                    color: $bg-color1;
-                    &:first-child,&:nth-child(6){
-                        background-color: #FDF3E2 ;
-                    }
-                    &:first-child{
-                        border-top-color: $bg-color2;
-                    }
-                    &:nth-child(2){
-                        &::before{
-                            color: $bg-color1;
+
+        .components {
+            .box {
+                &:first-child {
+                    padding-right: 80px;
+                }
+                &:last-child{
+                    padding-left: 80px;
+                }
+                .alerts {
+                    .slide {
+                        position: relative;
+                        border: 0;
+                        border-top: solid;
+                        padding: 30px;
+                        color: $bg-color1;
+
+                        &:first-child {
+                            border-top-color: $bg-color2;
+                        }
+
+                        &:nth-child(2) {
+                            &::before {
+                                color: $bg-color1;
+                            }
+                        }
+
+                        &::before {
+                            position: absolute;
+                            font-family: FontAwesome;
+                            content: "\f1b0";
+                            padding-right: 5px;
+                            color: $bg-color2;
+                            font-size: 1.6em;
+                            top: -25px;
+                            left: 50%;
+                            transform: translateX(-50%) rotate(30deg);
                         }
                     }
-                    &::before {
-                        position: absolute;
-                        font-family: FontAwesome;
-                        content: "\f1b0";
-                        padding-right: 5px;
-                        color: $bg-color2;
-                        font-size: 1.6em;
-                        top: -25px;
-                        left: 50%;
-                        transform: translateX(-50%) rotate(30deg);
+                }
+
+                .progress-bars {
+                    .gray-block {
+                        margin-bottom: 5px;
+
+                        .blue-block {
+                            top: 0;
+                            left: 0;
+                            background-color: #0D6EFD;
+                        }
                     }
+                }
+
+                .tabs {
+                    #nav-tab {
+                        border: none;
+                        .nav-link {
+                            font-size: 1.2em;
+                            padding: 15px 25px;
+                            margin-right: 10px;
+                            background-color: $bg-color2 !important;
+                            @include headerfont;
+                            border-radius: 8px;
+                            &:focus,&:hover {
+                                background-color: $bg-color1 !important;
+                                color: white !important;
+                            }
+                        }
+
+                        .active {
+                            background-color: $bg-color1 !important;
+                            color: white !important;
+                        }
+                    }
+                    #nav-tabContent{
+                        p{
+                            padding: 50px 50px;
+                            border-radius: 8px;
+                            font-family: $abeezee;
+                            color: #444;
+                        }
+                    }
+                }
+
+                .accordion {
+                    .accordion-item {
+                        border: none;
+                        margin-bottom: 5px;
+
+                        .accordion-button {
+                            background-color: #fdf3e2;
+                            @include headerfont;
+                            border: none;
+                            box-shadow: none;
+                            border-radius: 8px;
+
+                            &::after {
+                                fill: $bg-color1;
+                            }
+
+                            &:hover {
+                                background-color: $bg-color1;
+                                color: white;
+                                border: none;
+
+                                &::after {
+                                    filter: brightness(0) invert(1);
+                                }
+                            }
+
+                            &:focus {
+                                outline: none;
+                                border: none;
+                                box-shadow: none;
+                                background-color: $bg-color1;
+                                color: white;
+
+                                &::after {
+                                    filter: brightness(0) invert(1);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .alerts,
+                .badges,
+                .progress-bars,
+                .shadows,
+                .tabs,
+                .accordion {
+                    margin-bottom: 20px;
                 }
             }
         }
+        
     }
 }
 
