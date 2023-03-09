@@ -98,7 +98,8 @@
                 </path>
             </svg>
         </section>
-        <!-- ==========ELEMENTS SECTION END ==================== -->
+        <!-- ============= ELEMENTS SECTION END ==================== -->
+        <!-- =============== BASIC SECTION START ================= -->
         <section id="basic">
             <div class="container w-90">
                 <h1 class="headline">Basic Elements</h1>
@@ -590,8 +591,8 @@
                             <h3>Collapsible <br> Elment</h3>
                         </div>
                         <p class="row justify-content-center">
-                            <a class="btn btn-warning mb-3" data-bs-toggle="collapse" href="#collapseExample" role="button"
-                                aria-expanded="false" aria-controls="collapseExample">
+                            <a class="btn btn-warning mb-3" data-bs-toggle="collapse" href="#collapseExample"
+                                role="button" aria-expanded="false" aria-controls="collapseExample">
                                 Link with href
                             </a>
                             <button class="btn btn-warning" type="button" data-bs-toggle="collapse"
@@ -600,36 +601,129 @@
                             </button>
                         </p>
                         <div class="collapse" id="collapseExample">
-                            <div class="card card-body">
+                            <div class="card card-body border-none text-center">
                                 Some placeholder content for the collapse component. This panel is hidden by default but
                                 revealed when the user activates the relevant trigger.
                             </div>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="tables col-12">
                         <div class="altText">
                             <h3>Tables</h3>
                         </div>
-
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">First Name</th>
+                                    <th scope="col">Last Name</th>
+                                    <th scope="col">Username</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="col-12">
+                    <div class="backgrounds col-12">
                         <div class="altText">
                             <h3>Backgrounds</h3>
                         </div>
-
+                        <div class="p-3 mb-2 bg-warning text-white">.bg-primary</div>
+                        <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+                        <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+                        <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+                        <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+                        <div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+                        <div class="p-3 mb-2 bg-cream text-dark">.bg-light</div>
+                        <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
                     </div>
-                    <div class="col-12">
+                    <div class="cards col-12">
                         <div class="altText">
                             <h3>Cards</h3>
                         </div>
-
+                        <div class="card-box shadow">
+                            <div class="card border-0" style="width: 20rem;">
+                                <img src="/images/img-elements.jpg" class="card-img-top" alt="dog-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =============== BASIC SECTION END ===================== -->
+        <section id="image-effects">
+            <div class="container w-90">
+                <h1 class="headline text-center">Image Effects</h1>
+                <div class="row m-auto">
+                    <div class="col-12 col-md-4">
+                        <div class="altText">
+                            <h3>Blob 1</h3>
+                        </div>
+                        <img src="/images/img-elements.jpg" alt="" class="img-fluid blob-1">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="altText">
+                            <h3>Blob 2</h3>
+                        </div>
+                        <img src="/images/img-elements.jpg" alt="" class="img-fluid blob-2">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="altText">
+                            <h3>Rounded Image</h3>
+                        </div>
+                        <img src="/images/img-elements.jpg" alt="" class="img-fluid rounded">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="altText">
+                            <h3>Circle Image</h3>
+                        </div>
+                        <img src="/images/img-elements.jpg" alt="" class="img-fluid circle">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="altText">
+                            <h3>Opacity Hover Image</h3>
+                        </div>
+                        <img src="/images/img-elements.jpg" alt="" class="img-fluid opacity-hover">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="altText">
+                            <h3>Zoom Hover</h3>
+                        </div>
+                        <div class="zoom-box">
+                            <img src="/images/img-elements.jpg" alt="" class="img-fluid zoom-hover">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- ================== MAIN END=========================== -->
+    <!-- ================== MAIN END =========================== -->
 </body>
 
 </html>

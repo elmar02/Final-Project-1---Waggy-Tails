@@ -1,3 +1,13 @@
+@keyframes translate1 {
+  0% {
+    opacity: 0;
+    top: 0;
+  }
+  100% {
+    opacity: 100%;
+    top: 30%;
+  }
+}
 #header {
   position: fixed;
   width: 100%;
@@ -152,6 +162,7 @@
 }
 main {
   transform: translateY(72px);
+  vertical-align: middle;
 }
 main .bg-cream {
   background-color: #fdf3e2;
@@ -187,10 +198,10 @@ main #elements .overlay {
 }
 main #elements .text-box {
   position: absolute;
-  top: 20%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
+  animation: translate1 1s forwards;
 }
 main #elements .text-box h1 {
   color: white;
@@ -220,16 +231,16 @@ main #basic .altText, main #image-effects .altText {
   padding-left: 8px;
   margin-bottom: 20px;
 }
-main #basic {
-  padding: 50px 0;
-}
-main #basic .headline {
+main #basic .headline, main #image-effects .headline {
   text-align: center;
   font-size: 2em;
   font-family: "ABeeZee", sans-serif;
   font-weight: 700;
   color: #10223a;
   padding-bottom: 80px;
+}
+main #basic {
+  padding: 50px 0;
 }
 main #basic .subline {
   text-align: center;
@@ -583,6 +594,97 @@ main #basic .other .collapsible-element .collapse .card {
   border: none;
   text-align: center;
 }
+main #basic .other .tables .table tbody tr th {
+  font-weight: normal;
+}
+main #basic .other .tables .table tbody tr:nth-child(odd) {
+  background-color: #F0E7D6;
+}
+main #basic .other .tables .table tbody tr:hover {
+  background-color: #CCD8E4;
+}
+main #basic .other .backgrounds .bg-secondary {
+  background-color: #10223a !important;
+}
+main #basic .other .backgrounds .bg-info {
+  background-color: #DEE9F7 !important;
+}
+main #basic .other .cards .card-box {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 8mm;
+  padding: 30px 25px 20px;
+}
+main #basic .other .cards .card-box .card {
+  border-radius: 0;
+}
+main #basic .other .cards .card-box .card .card-img-top {
+  border-radius: 10px;
+}
+main #basic .other .cards .card-box .card .card-body .card-title {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 700;
+  color: #10223a;
+}
+main #basic .other .cards .card-box .card .card-body .card-text {
+  color: #444;
+  font-size: 17px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+main #basic .other .cards .card-box .card .card-body .btn {
+  text-transform: uppercase;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 700;
+  color: #10223a;
+  border-radius: 20px;
+  padding: 8px 40px;
+  background-color: #fab005;
+  border: none;
+}
+main #basic .other .cards .card-box .card .card-body .btn:focus, main #basic .other .cards .card-box .card .card-body .btn:hover {
+  color: white;
+}
+main #basic .other .cards .card-box .card .card-body .btn:hover {
+  background-color: #10223a;
+}
+main #image-effects .col-12 {
+  margin-bottom: 70px;
+}
+main #image-effects .col-12 .altText {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 700;
+  color: #10223a;
+}
+main #image-effects .col-12 .altText h3 {
+  font-weight: 900 !important;
+}
+main #image-effects .col-12 .circle {
+  border-radius: 50%;
+}
+main #image-effects .col-12 .opacity-hover:hover {
+  opacity: 0.7;
+}
+main #image-effects .col-12 .zoom-box {
+  overflow: hidden;
+}
+main #image-effects .col-12 .zoom-box .zoom-hover {
+  transition: 1.7s ease-in-out;
+}
+main #image-effects .col-12 .zoom-box .zoom-hover:hover {
+  scale: 1.3;
+}
+main #image-effects .col-12 .blob-1, main #image-effects .col-12 .blob-2 {
+  transition: 1s;
+}
+main #image-effects .col-12 .blob-1, main #image-effects .col-12 .blob-2:hover {
+  border-radius: 30% 70% 70% 30%/30% 45% 55% 70%;
+}
+main #image-effects .col-12 .blob-2, main #image-effects .col-12 .blob-1:hover {
+  border-radius: 57% 43% 31% 69%/54% 61% 39% 46%;
+}
 
 @media (min-width: 576px) {
   main #elements {
@@ -599,7 +701,7 @@ main #basic .other .collapsible-element .collapse .card {
   main #elements div .text-box h1 {
     font-size: 4em;
   }
-  main #basic .headline {
+  main #basic .headline, main #image-effects .headline {
     font-size: 3.4em;
   }
   main #basic .subline {
