@@ -745,4 +745,47 @@ main #image-effects .col-12 .blob-2, main #image-effects .col-12 .blob-1:hover {
   main #elements div .text-box h1 {
     font-size: 4.2em;
   }
+}
+#offer .img-box {
+  position: relative;
+}
+#offer .img-box::after {
+  position: absolute;
+  content: "So Fun!";
+  font-size: 2em;
+  padding: 10px 20px;
+  color: #ffffff;
+  top: -12px;
+  left: 12px;
+  background-color: #fab005;
+  opacity: 0.8;
+  border-radius: 67% 33% 81% 14%/43% 69% 31% 41%;
+  font-family: "Damion", cursive;
+  font-weight: 500;
+}
+#offer .text-box h6 {
+  color: #444444;
+  opacity: 0.5;
+}
+#offer .text-box h6::before {
+  font-family: FontAwesome;
+  content: "\f1b0";
+  padding-right: 5px;
+  color: #fab005;
+  transform: rotate(30deg);
+}
+#offer .text-box h2 {
+  font-family: "ABeeZee", sans-serif;
+}
+#offer .text-box .bg1 {
+  background-color: #fab005;
+  color: #10223a;
+}
+#offer .text-box .btn {
+  border-radius: 18px;
+  font-weight: 700;
+}
+#offer .text-box .btn:hover {
+  background-color: #10223a;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,51 @@
+#offer {
+    .img-box {
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: 'So Fun!';
+            font-size: 2em;
+            padding: 10px 20px;
+            color: #ffffff;
+            top: -12px;
+            left: 12px;
+            background-color: $bg-color2;
+            opacity: 0.8;
+            border-radius: 67% 33% 81% 14% / 43% 69% 31% 41%;
+            font-family: 'Damion', cursive;
+            font-weight: 500;
+        }
+    }
+
+    .text-box {
+        h6 {
+            color: #444444;
+            opacity: 0.5;
+
+            &::before {
+                font-family: FontAwesome;
+                content: "\f1b0";
+                padding-right: 5px;
+                color: $bg-color2;
+                transform: rotate(30deg);
+
+            }
+        }
+        h2{
+            font-family: $abeezee;
+        }
+        .bg1{
+            background-color: $bg-color2;
+            color: $bg-color1;
+        }
+        .btn{
+            border-radius: 18px;
+            font-weight: 700;
+            &:hover{
+                background-color: $bg-color1;
+                color: white;
+            }
+        }
+    }
+}
