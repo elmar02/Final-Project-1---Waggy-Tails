@@ -1228,4 +1228,1289 @@ main #elements .text-box ol li a {
   main #elements div .text-box h1 {
     font-size: 4.2em;
   }
+}
+main {
+  transform: translateY(72px);
+  font-family: "Inter", sans-serif;
+}
+main .w-90 {
+  width: 90%;
+}
+main #our-rates .apply-now .boxes {
+  margin-top: 100px;
+}
+main #our-rates .apply-now .boxes .box .box1 .xbox {
+  color: #ffffff;
+}
+main #our-rates .apply-now .boxes .box .box1 .xbox span {
+  font-size: 15px;
+  color: #7C7C7C;
+}
+main #our-rates .apply-now .boxes .box .box1 .xbox span i {
+  transform: rotate(30deg);
+  color: #FEE4A5;
+  font-size: 25px;
+}
+main #our-rates .apply-now .boxes .box .box1 .xbox h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #10223A;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 600;
+}
+main #our-rates .apply-now .boxes .box .box1 .xbox p {
+  font-size: 18px;
+  color: #444444;
+}
+main #our-rates .apply-now .boxes .box .box1 .xbox .xdog {
+  position: relative;
+  margin: auto;
+}
+main #our-rates .apply-now .boxes .box .box1 .xbox .xdog h3 {
+  color: #ffffff;
+  background-color: rgba(250, 176, 5, 0.814);
+  display: inline-block;
+  position: absolute;
+  padding: 20px;
+  border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
+  font-family: "Damion", serif;
+}
+main #our-rates .apply-now .boxes .box .box1 .xbox .xdog img {
+  border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
+  transition: 555ms ease-out;
+  width: 1000px;
+}
+main #our-rates .apply-now .boxes .box .box1 .xbox .xdog img:hover {
+  border-radius: 30% 70% 70% 30%/30% 45% 55% 70%;
+}
+main #our-rates .apply-now .boxes .box .box1 .zbox {
+  color: #ffffff;
+}
+main #our-rates .apply-now .boxes .box .box1 .zbox .a {
+  margin-bottom: 50px;
+}
+main #our-rates .apply-now .boxes .box .box1 .zbox .a h1 {
+  margin-bottom: 45px;
+  color: #10223A;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 600;
+}
+main #our-rates .apply-now .boxes .box .box1 .zbox .a span {
+  color: #10223A;
+  display: inline-block;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+main #our-rates .apply-now .boxes .box .box1 .zbox .a span i {
+  color: #fab005;
+  margin-right: 10px;
+  font-size: 19px;
+}
+main #our-rates .apply-now .boxes .box .box1 .zbox .a p {
+  font-size: 18px;
+  color: #444444;
+}
+main #our-rates .apply-now .boxes .box .box1 .zbox .sms p {
+  font-size: 17px;
+}
+main #our-rates .apply-now .boxes .box .box1 .zbox .sms .slide {
+  position: relative;
+  border: 0;
+  border-top: solid;
+  padding: 30px;
+  background-color: #FDF3E2;
+  color: #10223a;
+}
+main #our-rates .apply-now .boxes .box .box1 .zbox .sms .slide:first-child {
+  border-top-color: #fab005;
+}
+main #our-rates .apply-now .boxes .box .box1 .zbox .sms .slide:nth-child(2)::before {
+  color: #10223a;
+}
+main #our-rates .apply-now .boxes .box .box1 .zbox .sms .slide::before {
+  position: absolute;
+  font-family: FontAwesome;
+  content: "\f1b0";
+  padding-right: 5px;
+  color: #fab005;
+  font-size: 1.6em;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%) rotate(30deg);
+}
+main #our-rates .apply-now .boxes .box .packets {
+  padding-top: 20px;
+}
+main #our-rates .apply-now .boxes .box .packets .pack {
+  padding-bottom: 55px;
+}
+main #our-rates .apply-now .boxes .box .packets .pack .img {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+main #our-rates .apply-now .boxes .box .packets .pack .pack-bg {
+  padding: 55px 37px 30px 37px;
+  border-radius: 17px;
+  background-color: #FDF3E2;
+  text-align: center;
+  transition: 180ms ease-out;
+}
+main #our-rates .apply-now .boxes .box .packets .pack .pack-bg:hover {
+  border-radius: 17px;
+  border: 1px solid #fab005;
+  box-shadow: 0px -11px 0px #fab005;
+  margin-top: 11px;
+}
+main #our-rates .apply-now .boxes .box .packets .pack .pack-bg ul li {
+  line-height: 35px;
+}
+main #our-rates .apply-now .boxes .box .packets .pack .pack-bg ul li i {
+  color: #fab005;
+  padding-right: 4px;
+}
+main #our-rates .apply-now .boxes .box .packets .pack .pack-bg .price {
+  padding: 20px 5px 3px 5px;
+  background-color: #ffffff;
+  border-radius: 30% 70% 70% 30%/30% 45% 55% 70%;
+  transition: all 0.7s ease-in-out;
+}
+main #our-rates .apply-now .boxes .box .packets .pack .pack-bg .price:hover {
+  border-radius: 57% 43% 31% 69%/54% 61% 39% 46%;
+}
+main #our-rates .apply-now .boxes .box .packets .pack .pack-bg .price h1 {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 600;
+}
+main #our-rates .apply-now .boxes .box .packets .pack .pack-bg .price p {
+  font-size: 12px;
+  font-weight: bold;
+}
+main #our-rates .apply-now .boxes .box .packets .pack .pack-bg a {
+  background-color: #fab005;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 17px;
+  margin-top: 25px;
+  font-weight: bold;
+  color: #10223A;
+  transition: 111ms ease-out;
+}
+main #our-rates .apply-now .boxes .box .packets .pack .pack-bg a:hover {
+  background-color: #10223a;
+  color: #ffffff;
+}
+main #our-rates .apply-now .boxes .box .drop {
+  text-align: center;
+  width: 470px;
+  background-color: #FDF3E2;
+  padding: 20px 40px 35px 40px;
+  border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
+  transition: all 0.7s ease-in-out;
+  margin: auto;
+  margin-top: 50px;
+}
+main #our-rates .apply-now .boxes .box .drop:hover {
+  border-radius: 30% 70% 70% 30%/30% 45% 55% 70%;
+}
+main #our-rates .apply-now .boxes .box .drop h3 {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 600;
+}
+main #our-rates .apply-now .boxes .box .drop h6 {
+  display: inline-block;
+  padding: 5px 0px 6px 0px;
+  border-top: 2px dashed #fab005;
+  border-bottom: 2px dashed #fab005;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 600;
+}
+main #our-rates .apply-now .boxes .box .drop p {
+  font-size: 18px;
+}
+main #our-rates .apply-now .boxes .box .big-visit {
+  margin-top: 100px;
+}
+main #our-rates .apply-now .boxes .box .big-visit .backg .visit-bg {
+  background: url(/images/call1.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 83px;
+}
+main #our-rates .apply-now .boxes .box .big-visit .backg .visit-bg .visit {
+  background-color: #ffffff;
+  width: 370px;
+  padding: 50px;
+  border-radius: 30px;
+  display: inline-block;
+  text-align: center;
+}
+main #our-rates .apply-now .boxes .box .big-visit .backg .visit-bg .visit h1 {
+  padding-bottom: 15px;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 600;
+}
+main #our-rates .apply-now .boxes .box .big-visit .backg .visit-bg .visit p {
+  font-size: 17px;
+}
+main #our-rates .apply-now .boxes .box .big-visit .backg .visit-bg .visit a {
+  background-color: #10223a;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 17px;
+  margin-top: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  transition: 111ms ease-out;
+}
+main #our-rates .apply-now .boxes .box .big-visit .backg .visit-bg .visit a:hover {
+  background-color: #fab005;
+  color: #10223A;
+}
+main #our-rates .apply-now .boxes .box .box-question .boxes .txt-box span {
+  color: #7C7C7C;
+  display: inline-block;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 17px;
+}
+main #our-rates .apply-now .boxes .box .box-question .boxes .txt-box span i {
+  color: #FEE4A5;
+  margin-right: 5px;
+  font-size: 25px;
+  transform: rotate(30deg);
+}
+main #our-rates .apply-now .boxes .box .box-question .boxes .txt-box h1 {
+  font-size: 50px;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 600;
+}
+main #our-rates .apply-now .boxes .box .box-question .boxes .txt-box p {
+  width: 480px;
+  font-size: 18px;
+}
+main #our-rates .apply-now .boxes .box .box-question .boxes .txt-box a {
+  background-color: #fab005;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 17px;
+  margin: 25px 0px 60px 0px;
+  font-weight: bold;
+  color: #10223A;
+  transition: 111ms ease-out;
+}
+main #our-rates .apply-now .boxes .box .box-question .boxes .txt-box a:hover {
+  background-color: #10223a;
+  color: #ffffff;
+}
+main #our-rates .apply-now .boxes .box .box-question .boxes .inp-box {
+  padding-left: 10px;
+}
+main #our-rates .apply-now .boxes .box .box-question .boxes .inp-box .accordion .accordion-item {
+  border: none;
+  margin-bottom: 5px;
+}
+main #our-rates .apply-now .boxes .box .box-question .boxes .inp-box .accordion .accordion-item .accordion-button {
+  background-color: #fdf3e2;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 700;
+  color: #10223a;
+  border: none;
+  box-shadow: none;
+  border-radius: 8px;
+}
+main #our-rates .apply-now .boxes .box .box-question .boxes .inp-box .accordion .accordion-item .accordion-button::after {
+  fill: #10223a;
+}
+main #our-rates .apply-now .boxes .box .box-question .boxes .inp-box .accordion .accordion-item .accordion-button:hover {
+  background-color: #10223a;
+  color: white;
+  border: none;
+}
+main #our-rates .apply-now .boxes .box .box-question .boxes .inp-box .accordion .accordion-item .accordion-button:hover::after {
+  filter: brightness(0) invert(1);
+}
+main #our-rates .apply-now .boxes .box .box-question .boxes .inp-box .accordion .accordion-item .accordion-button:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background-color: #10223a;
+  color: white;
+}
+main #our-rates .apply-now .boxes .box .box-question .boxes .inp-box .accordion .accordion-item .accordion-button:focus::after {
+  filter: brightness(0) invert(1);
+}
+
+main #dog-bording .boxes {
+  padding-top: 130px;
+}
+main #dog-bording .boxes .box1 {
+  padding-left: 50px;
+}
+main #dog-bording .boxes .box1 span {
+  color: #7C7C7C;
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 17px;
+}
+main #dog-bording .boxes .box1 span i {
+  color: #FEE4A5;
+  margin-right: 5px;
+  font-size: 25px;
+  transform: rotate(30deg);
+}
+main #dog-bording .boxes .box1 h1 {
+  font-size: 46px;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+main #dog-bording .boxes .box1 h6 {
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+main #dog-bording .boxes .box1 p {
+  width: 400px;
+  padding-bottom: 20px;
+}
+main #dog-bording .boxes .box1 h4 {
+  font-weight: 600;
+  display: inline-block;
+  padding: 5px 0px;
+  border-top: 2px dashed #fab005;
+  border-bottom: 2px dashed #fab005;
+}
+main #dog-bording .boxes .box2 {
+  padding-top: 50px;
+}
+main #dog-bording .boxes .box2 .xdog {
+  width: 470px;
+  position: relative;
+  padding-left: 10px;
+}
+main #dog-bording .boxes .box2 .xdog h3 {
+  color: #ffffff;
+  background-color: rgba(250, 176, 5, 0.814);
+  display: inline-block;
+  position: absolute;
+  padding: 20px;
+  border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
+  font-family: "Damion", serif;
+}
+main #dog-bording .boxes .box2 .xdog .dog {
+  border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
+  transition: 555ms ease-out;
+}
+main #dog-bording .boxes .box2 .xdog .dog:hover {
+  border-radius: 30% 70% 70% 30%/30% 45% 55% 70%;
+}
+main #dog-bording .boxes .box2 .xdog .dogsvg {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+}
+main #dog-bording .carusel {
+  padding-left: 35px;
+}
+main #dog-bording .carusel .carus {
+  padding: 100px 8px 3px 8px;
+}
+main #dog-bording .carusel .carus img {
+  width: 600px;
+  height: 200px;
+  display: flex;
+  border-radius: 10px;
+  transition: 111ms ease-out;
+}
+main #dog-bording .carusel .carus img:hover {
+  border: 3px solid #fab005;
+}
+main #dog-bording .carusel .dots ul li {
+  padding: 0px 12px;
+}
+main #dog-bording .carusel .dots ul li i {
+  transform: rotate(45deg);
+  color: #7C7C7C;
+  font-size: 7px;
+}
+main #dog-bording .our-rules {
+  position: relative;
+  padding-top: 90px;
+}
+main #dog-bording .our-rules .txtbox {
+  width: 450px;
+}
+main #dog-bording .our-rules .txtbox h1 {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 600;
+  padding-bottom: 25px;
+}
+main #dog-bording .our-rules .txtbox p {
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+main #dog-bording .our-rules .txtbox span {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+main #dog-bording .our-rules .list-s {
+  -moz-column-count: 1;
+       column-count: 1;
+  width: 480px;
+}
+main #dog-bording .our-rules .list-s .qqq {
+  padding-top: 20px;
+}
+main #dog-bording .our-rules .list-s li {
+  list-style: none;
+}
+main #dog-bording .our-rules .list-s li i {
+  color: #fab005;
+  margin-right: 5px;
+  font-size: 16px;
+}
+main #dog-bording .our-rules .xbox {
+  width: 470px;
+  position: absolute;
+}
+main #dog-bording .our-rules .xbox img {
+  display: flex;
+  margin: auto;
+  position: absolute;
+  right: 0;
+}
+main #dog-bording .our-rules .xbox i {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  transform: rotate(30deg);
+  color: #fab005;
+  font-size: 25px;
+  position: absolute;
+  left: 24vh;
+  top: -18px;
+}
+main #dog-bording .our-rules .xbox .gbox {
+  background-color: #FDF3E2;
+  width: 470px;
+  padding: 50px 30px 30px 35px;
+  transition: 111ms ease-out;
+  border-radius: 8px;
+  border: 1px solid #fab005;
+  box-shadow: 0px -3px 0px #fab005;
+  position: absolute;
+  margin-top: 150px;
+}
+main #dog-bording .our-rules .xbox .gbox h3 {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 600;
+}
+main #dog-bording .our-rules .xbox .gbox p {
+  font-size: 17px;
+}
+main #dog-bording .our-rules .xbox .gbox a {
+  background-color: #10223a;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 17px;
+  margin-top: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  transition: 111ms ease-out;
+}
+main #dog-bording .our-rules .xbox .gbox a:hover {
+  background-color: #fab005;
+  color: #10223A;
+}
+main #dog-bording .footer {
+  background-color: #DEE9F7;
+  color: #10223A;
+}
+main #dog-bording .footer .side-text {
+  padding: 140px 0;
+}
+main #dog-bording .footer .side-text h2 {
+  font-family: "ABeeZee", sans-serif !important;
+  font-weight: 600;
+}
+main #dog-bording .footer .side-text a {
+  background-color: #fab005;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 17px;
+  margin-top: 25px;
+  font-weight: bold;
+  color: #10223A;
+  transition: 111ms ease-out;
+}
+main #dog-bording .footer .side-text a:hover {
+  background-color: #10223a;
+  color: #ffffff;
+}
+main #dog-bording .footer .side-img {
+  position: relative;
+}
+main #dog-bording .footer .side-img img {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+}
+
+@media (min-width: 576px) {
+  main #elements {
+    height: 35vh;
+  }
+  main #elements div .text-box ol li {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) {
+  main #elements {
+    height: 45vh;
+  }
+  main #elements div .text-box h1 {
+    font-size: 4em;
+  }
+  main #basic .headline {
+    font-size: 3.4em;
+  }
+  main #basic .subline {
+    font-size: 2.4em;
+  }
+  main #basic .typography .typoHeader h1 {
+    font-size: 4.3em;
+  }
+  main #basic .typography .typoHeader h2 {
+    font-size: 3.4em;
+  }
+  main #basic .typography .typoHeader h3 {
+    font-size: 2.4em;
+  }
+  main #basic .typography .typoHeader h4 {
+    font-size: 1.8em;
+  }
+  main #basic .typography .typoHeader h5 {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 992px) {
+  main #elements {
+    height: 50vh;
+  }
+  main #elements div .text-box h1 {
+    font-size: 4.2em;
+  }
+}
+@media (min-width: 1200px) {
+  main {
+    margin-left: 17.05%;
+    transform: translateY(0);
+  }
+  main #elements {
+    height: 400px;
+  }
+  main #elements div .text-box {
+    top: 40%;
+  }
+  main #elements div .text-box h1 {
+    font-size: 4.2em;
+  }
+  main #dog-bording .zz .xx .carusel .xcarusel .xcarimg .carus {
+    width: 400px;
+    padding-top: 160px;
+  }
+  main #dog-bording .zz .xx .carusel .xcarusel .xcarimg .carus img {
+    width: 400px;
+    height: 400px;
+  }
+  main #dog-bording .zz .xx .our-rules .rowbox .colbox .boxlist .list-s {
+    -moz-column-count: 2;
+         column-count: 2;
+    width: 500px;
+  }
+  main #dog-bording .zz .xx .our-rules .rowbox .colbox .boxlist .list-s .qqq {
+    padding-top: 0px;
+  }
+  main #our-rates .apply-now .rowbox .colbox .boxes .box .c-box .rowbox2 .colbox2 .packets .bosh {
+    padding-top: 80px;
+  }
+  main #our-rates .apply-now .rowbox .colbox .boxes .box .c-box .dropin .colbox .drop {
+    text-align: center;
+    width: 650px;
+    background-color: #FDF3E2;
+    padding: 20px 40px 35px 40px;
+    border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
+    transition: all 0.7s ease-in-out;
+    margin: auto;
+    margin-top: 50px;
+  }
+  main #our-rates .apply-now .rowbox .colbox .boxes .box .c-box .dropin .colbox .drop:hover {
+    border-radius: 30% 70% 70% 30%/30% 45% 55% 70%;
+  }
+  main #our-rates .apply-now .rowbox .colbox .boxes .box .c-box .dropin .colbox .drop h3 {
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 600;
+  }
+  main #our-rates .apply-now .rowbox .colbox .boxes .box .c-box .dropin .colbox .drop h6 {
+    display: inline-block;
+    padding: 5px 0px 6px 0px;
+    border-top: 2px dashed #fab005;
+    border-bottom: 2px dashed #fab005;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 600;
+  }
+  main #our-rates .apply-now .rowbox .colbox .boxes .box .c-box .dropin .colbox .drop p {
+    font-size: 18px;
+  }
+  main #our-rates .apply-now .rowbox .colbox .boxes .box .big-visit {
+    margin-top: 120px;
+  }
+  main #our-rates .apply-now .rowbox .colbox .boxes .box .big-visit .backg .rowbox .colbox .visit-bg {
+    padding: 100px 300px;
+  }
+  main #our-rates .apply-now .rowbox .colbox .boxes .box .cont .box-question .rowbox .boxes .rowbox2 .txt-box p {
+    width: 300px;
+  }
+}
+main #dogs {
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  padding-top: 50px;
+}
+main #dogs .paw {
+  transform: rotate(30deg);
+  color: #FDE3A7;
+  font-size: 26px;
+  margin-right: 5px;
+}
+main #dogs h6 {
+  color: #444444;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  opacity: 0.7;
+  margin-bottom: 0.7em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main #dogs h1 {
+  color: #10223A !important;
+  font-weight: 700;
+  line-height: 1.1;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3.4em;
+  letter-spacing: -0.5px;
+  margin-bottom: 20px;
+  letter-spacing: -0.5px;
+}
+main #dogs p {
+  color: #444444;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+main #dogs .box-right {
+  position: relative;
+  margin-left: 100px;
+}
+main #dogs .box-right .family {
+  border-radius: 10px;
+}
+main #dogs .box-right .days {
+  position: absolute;
+  font-family: "Damion", serif;
+  color: white;
+  background-color: orange;
+  opacity: 0.8;
+  right: 0;
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 67% 33% 81% 14%/43% 69% 31% 41% !important;
+}
+main #dogs .box-right .ornament1 {
+  background: url(/images/ornament1.png);
+  position: absolute;
+  height: 175px;
+  width: 200px;
+  float: left;
+  top: 200px;
+}
+main #sliders .container .boxes {
+  justify-content: space-around;
+}
+main #sliders .container .boxes .box1 {
+  position: relative;
+}
+main #sliders .container .boxes .box1:hover .overlay {
+  opacity: 1;
+}
+main #sliders .container .boxes .box1:hover .overlay img {
+  zoom: 80%;
+}
+main #sliders .container .boxes .box1 img {
+  margin-left: 20px;
+  width: 150px;
+  border-radius: 70% 30% 30% 70%/60% 40% 60% 40%;
+  position: relative;
+}
+main #sliders .container .boxes .box1 hr {
+  width: 230px;
+}
+main #sliders .container .boxes .box1 .overlay {
+  margin-left: 20px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.63);
+  opacity: 0;
+  top: 0;
+  border-radius: 70% 30% 30% 70%/60% 40% 60% 40%;
+  padding: 100px 60px 30px 35px;
+  transition: 0.3s ease-in-out;
+}
+main #sliders .container .boxes .box1 .overlay i {
+  color: white;
+}
+main #accordion {
+  width: 99%;
+  height: 100vh;
+  background-color: #fdf3e2;
+  position: relative;
+  background-image: url(/images/dogbg2.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20%;
+}
+main #accordion .award {
+  width: 50%;
+  position: absolute;
+  margin: auto;
+  margin-top: 150px;
+  background-color: white;
+  padding: 30px;
+  left: 40%;
+  border-radius: 8mm;
+}
+main #accordion .award h1 {
+  margin-bottom: 50px;
+}
+main #accordion .award .accordion {
+  background-color: #fdf3e2;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  border-radius: 10px;
+  margin: 5px 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  font-weight: 600;
+  font-size: 20px;
+}
+main #accordion .award .accordion:hover {
+  color: white;
+}
+main #accordion .award .active,
+main #accordion .award .accordion:hover {
+  background-color: #10223A;
+  transition: 0.2s ease-in-out;
+}
+main #accordion .award .panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+main #difference {
+  margin-bottom: 100px;
+}
+main #difference .box-left {
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+main #difference .box-left i {
+  transform: rotate(30deg);
+  color: #FDE3A7;
+  font-size: 26px;
+  margin-right: 5px;
+}
+main #difference .box-left h6 {
+  color: #444444;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  opacity: 0.7;
+  margin-bottom: 0.7em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main #difference .box-left h1 {
+  color: #10223A !important;
+  font-weight: 700;
+  line-height: 1.1;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3.4em;
+  letter-spacing: -0.5px;
+  margin-bottom: 20px;
+  letter-spacing: -0.5px;
+}
+main #difference .box-left p {
+  color: #444444;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+main #difference .box-right {
+  margin-top: 100px;
+}
+main #difference .box-right .box {
+  border-radius: 0.65em;
+  width: 450px;
+  height: 400px;
+  position: absolute;
+}
+main #difference .box-right .fun {
+  position: absolute;
+  font-family: "Damion", serif;
+  color: white;
+  background-color: orange;
+  opacity: 0.8;
+  font-size: 30px;
+  padding: 15px;
+  top: 53%;
+  border-radius: 67% 33% 81% 14%/43% 69% 31% 41% !important;
+}
+main #our .container ul {
+  margin-left: 300px;
+  list-style: none;
+  margin-bottom: 0px;
+}
+main #our .container ul button {
+  margin: 0 5px;
+  padding: 15px 30px;
+  border: none;
+  background-color: orange;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+main #our .container ul button:hover h1 {
+  color: white;
+}
+main #our .container ul button:hover {
+  background-color: #10223A;
+}
+main #our .container ul li h1 {
+  color: #10223A;
+  font-size: 20px;
+  font-weight: 700;
+}
+main #our .container .umumi {
+  justify-content: center;
+  position: relative;
+}
+main #our .container .umumi .logo {
+  background-color: #FDF3E2;
+  position: absolute;
+  padding: 100px;
+  border-radius: 8mm;
+}
+main #our .container .umumi .logo .box-left {
+  margin-right: 50px;
+}
+main #our .container .umumi .logo h1 {
+  color: #10223A;
+  font-size: 40px;
+  font-weight: 700;
+}
+main #our .container .umumi .logo h2 {
+  color: #10223A;
+  margin-bottom: 30px;
+}
+main #our .container .umumi .logo p {
+  color: #444444;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+main #our .container .umumi .logo p i {
+  color: orange;
+}
+main #our .container .umumi .logo .contactb {
+  margin-top: 50px;
+  border: none;
+}
+main #our .container .umumi .logo .contactb .contact {
+  font-weight: bolder;
+  border: none;
+  text-decoration: none;
+  color: #10223A;
+  background-color: orange;
+  padding: 13px 40px;
+  border-radius: 8mm;
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+}
+main #our .container .umumi .logo .contactb .contact:hover {
+  background-color: #10223A;
+  color: white;
+}
+main #our .container .umumi .qara-it {
+  position: absolute;
+  border-bottom-right-radius: 8mm;
+  top: 270px;
+  left: 61%;
+}
+main #work .container {
+  margin-top: 70%;
+  width: 100%;
+  height: 80vh;
+  background-image: url(/images/call4.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+main #work .container .work-with {
+  width: 500px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  padding: 60px 50px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main #work .container .work-with h1 {
+  color: #10223A;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+main #work .container .work-with p {
+  color: #444444;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+main #work .container .work-with a {
+  text-decoration: none;
+  color: white;
+  background-color: #10223A;
+  padding: 10px 40px;
+  border-radius: 8mm;
+  transition: 0.3s ease-in-out;
+}
+main #work .container .work-with a:hover {
+  background-color: orange;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main #touch {
+  height: auto;
+}
+main #touch .container {
+  position: relative;
+}
+main #touch .container .box-bottom {
+  width: 80%;
+  height: auto;
+  top: 50%;
+  padding-left: 100px;
+  position: absolute;
+}
+main #touch .container .box-bottom .box1 {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  background-color: #FDF3E2;
+  border-radius: 8mm;
+}
+main #touch .container .box-bottom .box1:hover .icon1 {
+  top: -25%;
+}
+main #touch .container .box-bottom .box1:hover .icon {
+  top: -25%;
+}
+main #touch .container .box-bottom .box1 .icon {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  padding: 9px 13px;
+  border-radius: 8mm;
+  background-color: #FAB005;
+  top: -18%;
+  left: 45%;
+  transition: 0.3s ease-in-out;
+}
+main #touch .container .box-bottom .box1 .icon1 {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8mm;
+  background-color: #FAB005;
+  top: -18%;
+  left: 40%;
+  transition: 0.3s ease-in-out;
+}
+main #touch .container .box-bottom .box1 h1 {
+  color: #10223A !important;
+  font-weight: 600;
+  line-height: 1.1;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 26px;
+  margin-bottom: 20px;
+  margin: 20px 0;
+}
+main #touch .container .box-bottom .box1 p {
+  color: #444444;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+main #touch .container .box-bottom .box1 .email {
+  text-decoration: none;
+  color: #444444;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  font-weight: 400;
+  transition: 0.3s ease-in-out;
+}
+main #touch .container .box-bottom .box1 .email:hover {
+  color: orange;
+}
+main #touch .container .box-top {
+  top: 300px;
+}
+main #touch .container .box-top .box-left {
+  margin-left: 150px;
+}
+main #touch .container .box-top .box-left .paw {
+  transform: rotate(30deg);
+  color: #FDE3A7;
+  font-size: 26px;
+  margin-right: 5px;
+}
+main #touch .container .box-top .box-left h6 {
+  color: #444444;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  opacity: 0.7;
+  margin-bottom: 0.7em;
+}
+main #touch .container .box-top .box-left h1 {
+  color: #10223A !important;
+  font-weight: bold;
+  line-height: 1.1;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 50px;
+  margin-bottom: 20px;
+  letter-spacing: -0.5px;
+}
+main #touch .container .box-top .box-left p {
+  color: #444444;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+main #touch .container .box-top .box-right .kopke {
+  border-radius: 10px;
+}
+main #touch .container .box-top .box-right .woof {
+  font-size: 35px;
+  z-index: 1;
+  position: absolute;
+  left: 85%;
+  font-family: "Damion", serif;
+  color: white;
+  background-color: rgba(255, 166, 0, 0.685);
+  padding: 15px;
+  border-radius: 67% 33% 81% 14%/43% 69% 31% 41% !important;
+}
+main #message .container {
+  width: 100%;
+  height: 80vh;
+}
+main #message .container h1 {
+  padding-top: 100px;
+  text-align: center;
+  color: #10223A;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+main #message .container .boxes {
+  margin: auto;
+}
+main #message .container .boxes .boxx .box1 {
+  width: 280px;
+  margin-right: 7%;
+}
+main #message .container .boxes .boxx .box2 {
+  width: 280px;
+}
+main #message .container .boxes .form-control {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid orange;
+}
+main #message .container .boxes .messages {
+  margin-bottom: 30px;
+}
+main #message .container .boxes .send {
+  color: #10223A;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 8mm;
+  background-color: orange;
+  margin-top: 20px;
+  transition: 0.3s ease-in-out;
+}
+main #message .container .boxes .send:hover {
+  color: white;
+  background-color: #10223A;
+}
+main #map {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  main #touch .container {
+    height: auto;
+  }
+  main #touch .container .box-top {
+    flex-direction: column;
+  }
+  main #touch .container .box-top .box-left {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+  main #touch .container .box-top .box-left h1 {
+    font-size: 30px;
+  }
+  main #touch .container .box-top .box-right .woof {
+    left: 40%;
+    bottom: 500px;
+  }
+  main #touch .container .box-bottom {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    flex-direction: column;
+  }
+  main #touch .container .box-bottom .box1 {
+    width: 100%;
+    flex-direction: column;
+  }
+  main #message .container .row .boxes .boxx {
+    flex-direction: column;
+  }
+  main #message .container .row .boxes .boxx .box1, main #message .container .row .boxes .boxx .box2 {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  main #touch .container {
+    height: auto;
+  }
+  main #touch .container .box-top {
+    flex-direction: column;
+  }
+  main #touch .container .box-top .box-left {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+  main #touch .container .box-top .box-left h1 {
+    font-size: 30px;
+  }
+  main #touch .container .box-top .box-right .woof {
+    left: 0;
+  }
+  main #touch .container .box-bottom {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    flex-direction: column;
+  }
+  main #touch .container .box-bottom .box1 {
+    width: 100%;
+    flex-direction: column;
+  }
+  main #message .container .row .boxes .boxx {
+    flex-direction: column;
+  }
+  main #message .container .row .boxes .boxx .box1, main #message .container .row .boxes .boxx .box2 {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  main #touch .container {
+    height: auto;
+  }
+  main #touch .container .box-top {
+    flex-direction: column;
+  }
+  main #touch .container .box-top .box-left {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+  main #touch .container .box-top .box-left h1 {
+    font-size: 30px;
+  }
+  main #touch .container .box-top .box-right .woof {
+    left: 40%;
+    bottom: 500px;
+  }
+  main #touch .container .box-bottom {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    flex-direction: column;
+  }
+  main #touch .container .box-bottom .box1 {
+    width: 100%;
+    flex-direction: column;
+  }
+  main #message .container .row .boxes .boxx {
+    flex-direction: column;
+  }
+  main #message .container .row .boxes .boxx .box1, main #message .container .row .boxes .boxx .box2 {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
